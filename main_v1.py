@@ -1,6 +1,6 @@
 '''
 程式開發者:NessHuang
-開發日期:2022-09-23
+開發日期:2022-09-26
 版本:v1
 
 使用平台:window10 / Google Sheet
@@ -15,15 +15,14 @@
 '''
 
 #定義使用變數
-URL_Info = "https://docs.google.com/spreadsheets/d/14_WxO2FBdeTQ0lzy0aN6QzQhFbyf7POMIcIYvaE7c0k/edit#gid=0" #網址
-ID_Info = "14_WxO2FBdeTQ0lzy0aN6QzQhFbyf7POMIcIYvaE7c0k" #GoogleID***********自訂變數
+URL_Info = "<你的Google sheet網址>" 
+ID_Info = "<你的Google sheet網址id>" 
 
 #Google分頁名------->IP_MAC_INFO->以取得的CELL為初始行數寫入TIME_AD_IP_MAC
 #Google分頁名------->IP_MAC_CELL比對表->作為取得CELL為初始行數
 #設定 IP & MAC 比對表的範圍
 showInfo_by_googlePage = "IP_MAC_INFO"
 checkList_by_googlePage = "Get_ROW_LIST"  
-Rang_Info='A1:C'
 
 df=[]                           #暫存取得的PANDAS陣列----->Google分頁Get_ROW_LIST
 row_end=""                      #暫存取得----->Google分頁Get_ROW_LIST總行數
@@ -81,7 +80,7 @@ def insertData_googleSeet_API_Key():
     import pandas as pd 
     #獲取授權與連結#
     scope = ["https://spreadsheets.google.com/feeds","https://www.googleapis.com/auth/spreadsheets","https://www.googleapis.com/auth/drive.file","https://www.googleapis.com/auth/drive"]
-    creds = ServiceAccountCredentials.from_json_keyfile_name("./creds.json", scope) #權限金鑰
+    creds = ServiceAccountCredentials.from_json_keyfile_name("creds.json", scope) #權限金鑰
     insert_sheet_API = gspread.authorize(creds) .open_by_key(ID_Info).worksheet(checkList_by_googlePage)# ID + PAGE
 
 def updateData_googleSeet_API_Key():
@@ -91,7 +90,7 @@ def updateData_googleSeet_API_Key():
     import pandas as pd
     #獲取授權與連結#
     scope = ["https://spreadsheets.google.com/feeds","https://www.googleapis.com/auth/spreadsheets","https://www.googleapis.com/auth/drive.file","https://www.googleapis.com/auth/drive"]
-    creds = ServiceAccountCredentials.from_json_keyfile_name("./creds.json", scope) #權限金鑰
+    creds = ServiceAccountCredentials.from_json_keyfile_name("creds.json", scope) #權限金鑰
     update_sheet_API = gspread.authorize(creds) .open_by_key(ID_Info).worksheet(showInfo_by_googlePage)# ID + PAGE
 
 '''
