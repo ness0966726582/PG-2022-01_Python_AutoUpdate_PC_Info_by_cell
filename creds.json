@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "bbi-update",
+  "private_key_id": "1dfc57b37b9dc0f41e9d73de6e30998b3a693367",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCKv8BxEEOqd/Qu\nkaHKqDOf3zpq3pxIQ58ZPQQbAWAjLuJI0mnVBgAZ56aP6zvV5zHEcMN0UcBBbAls\niPycV/O8Ep7fC10mPeOR8J+lQVxpr0l0V6UQ00SA82P/X2dN85KlqAOVvg3oRFa0\nibiM3MIHnKMWroeYLk/tCKsF4wHQEZ7avlI3NeioYrMM8xfWYX7TlCcKRXqHoOul\nacgMxazBv9U93DotTGMtI309GUzfm5Wt409e4FGfg+SaRbwaNEUpr5nQB3zYPchq\nu4goLahft9Oag9DAY45MkcnS7zTCDiHJN7+OxTWaLUIDytKSO+/5avf+0aRW+lGG\n1AQSj0aNAgMBAAECggEAArZpe3xjKkXClRd9R4I+0iER2g2EligWR+7IsgN2nvF3\ndI+CiKrfnSIJgFZLuuyUbT/8Hj3L6auESqYp9B+HERX3G6qz9T+v/4YqBNfQh/No\nlvjwrfHHbNL1UUSK9zvsEceFXGvVB0WwwUJRBJX7SB1QleyvE3NSVjK9bzXHLwtl\nxcwj9+5KfIWfITuQQHj4tURpDy1pDNc2e0cGsgNRkC9E0Wc/Os2FFur8xz3Lm0fT\nVW7FlOpeizqqDpyCGw+QGfaPcWEx7/wn9XJlfaC+QRYPAp+qYHuONeeXm3YkrrZi\nL+FrWa2trKAHdIR7GPR9TrgFTNCwzg6Iart42iPY4QKBgQDBQZ5BtrfRn2b8xW9S\ntT2slcpUofyB1yzGSQCE9HTO2n8ELK45ZsGYY/tg/ZLbf6lE5JDVscooFDGP+PCs\n/FY6LxA/7bv8JBkJip+5nMWFVQ3IG1MCKZU8LKLf2eO7Qz9Mr86bl9nD1FzGEz98\noTQTnhOO4h1sGinSOLak71aMIQKBgQC3y8sLV7r/PuizQu44HCZuvaPLMmTMe3Pu\nhDiD37fmpObN1fl6TAML1a3XK3ricv3U2xVumXcs+J+MRU8fFldKwvHKFh3iRbuP\nQFf15riILVFcuyWeKCCm2ZdlpC12bVydM3bH71JGATc3vzSMJsLGlh5QBPqgfHwV\nwVMNZR4M7QKBgQCFOjNbohc/D+DzyThhkEigPfNqPPHSoQBhAdq1zcDpCYAe5J6H\nO+uinuqhhq5DW9LZh6jBaPuwfZtdYYSp/JuFKQTOzZmWzVvlVAeg8g7JSEVj+lJT\nX09eWHdAUvnIEygEOf75DMo3UqNSedp+lLNOAuAA1Kjr6W2DW02ujsDfgQKBgCvw\nuNY5XydurstMkQ8xC68l/2aw4ZBRY2H+klRUw+6MNfG32jD2wzOtHiZ26qYAv9aH\nmhQa9Hb36YzrdQMFoFDrUkryBqr16OVSiLTtN+i2jOESjOfGyCeblapjGctaUe3z\nQ86A1LaPy9e0CqgHDEHV2eFfj1uW50N8OJLXPdvxAoGAZeIn1U0niqxWUEkJTxcL\nnaMReQlKrnMNjaumewrzXXWmBoKVdF5E0ol6ri9+WRRS7TtSkw/dri649k/tNB9q\n+5niE9c4EfHo5+bUuOweGTT59XhAjyj1F/KyVtYKJ/0+tTB90fPnPCKtLmj9zwbd\n6PRKI8H0Dlm4ksEdzOh8YMo=\n-----END PRIVATE KEY-----\n",
+  "client_email": "office-automation@bbi-update.iam.gserviceaccount.com",
+  "client_id": "103639275545520241064",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/office-automation%40bbi-update.iam.gserviceaccount.com"
+}
