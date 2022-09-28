@@ -1,0 +1,4 @@
+此版附檔的NAS路徑若需要更改需要重新打包進版
+
+nasPath_for_dataCSV = ["\\\\10.231.199.10\\Temp\\.AutoKey-ness\\data.csv"]
+nasPath_for_googleKey = ["\\\\10.231.199.10\\Temp\\.AutoKey-ness\\creds.json"]
