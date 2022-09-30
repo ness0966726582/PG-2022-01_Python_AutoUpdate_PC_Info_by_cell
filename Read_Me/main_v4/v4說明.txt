@@ -1,0 +1,8 @@
+V4
+解決錯誤的MAC取得->比對IP抓取對應MAC
+
+V3
+解決GPO無法攜帶文檔->直接指向NAS上文檔路徑
+nasPath_for_dataCSV = ["\\\\10.231.199.10\\Temp\\.AutoKey-ness\\data.csv"]
+nasPath_for_googleKey = ["\\\\10.231.199.10\\Temp\\.AutoKey-ness\\creds.json"]
+
